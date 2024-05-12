@@ -1,0 +1,160 @@
+.bg {
+  background-color: #0B2545;
+  overflow: auto;
+  height: 100vh;
+  width: 100vw; 
+}
+
+/* header */
+
+.navbar {
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #0B2545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-item {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #A77D66; 
+}
+
+/* page 1 */
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 0%;
+  margin-right: 7%;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex: 1;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10%;
+  margin-bottom: -10%;
+  width: 230px;
+  height: 127.47px;
+}
+
+.heading {
+  width: 645px;
+  height: 118px;
+  text-align: center;
+  color: #F7FFF7;
+  font-size: 104px;
+  font-family: Inter;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.subheading {
+  width: 60%;
+  margin-top: -5%;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.buttons-container {
+  margin-top: -5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.button {
+  padding: 10px;
+  background: #C49E85;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #A77D66; 
+}
+
+.push-button {
+  width: 264px;
+  height: 75px;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.phone-container {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  position: relative;
+  flex: 1;
+}
+
+.phone-image {
+  width: 60%; 
+  object-fit: contain;
+  /* width: 392px;
+  height: 762px; */
+  left: 0;
+  top: 0;
+  position: relative;
+  /* object-fit: cover; */
+}
+
